@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="lg:w-auto h-full py-[6.5vw] absolute right-20 z-[-1]">
-                <img className='w-auto h-full rounded-r-2xl' src="/hero-sec-img.jpg" alt="" />
+                <img className='w-auto h-full rounded-r-2xl' src="/hero.png" alt="" />
             </div>
         </div>
     </section>
