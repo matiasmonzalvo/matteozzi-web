@@ -84,7 +84,7 @@ export default function Contacto() {
             className="flex justify-center w-screen h-screen items-center p-20"
             data-scroll-section
         >
-            <div className="bg-black rounded-3xl py-20 px-8 w-full flex flex-col justify-between lg:flex-row">
+            <div className="bg-black rounded-3xl py-20 px-8 w-full h-[100%] flex flex-col justify-between lg:flex-row">
                 <div className="w-full lg:w-4/8 lg:pr-8 flex flex-col text-white mb-8 lg:mb-0">
                     <h2 className="lg:text-[4vw] md:text-4xl font-semibold mb-4 text-white leading-[1]">
                         Escribínos y recibí toda la información

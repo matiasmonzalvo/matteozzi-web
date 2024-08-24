@@ -12,7 +12,7 @@ const Hero = () => {
                     <a href='#' className='px-4 py-2 bg-black opacity-100 text-white rounded-md text-[1.25vw] hover:bg-neutral-800 transition duration-200 ease-in-out'>Ponete en contacto</a>
                 </div>
             </div>
-            <div className="lg:w-[50%] h-auto py-[6.5vw] absolute right-20 z-[-1]">
+            <div className="lg:w-[47.5%] h-auto py-[6.5vw] absolute right-20 z-[-1]">
                 <img className='w-FULL h-auto rounded-r-2xl' src="/hero.png" alt="" />
             </div>
         </div>
