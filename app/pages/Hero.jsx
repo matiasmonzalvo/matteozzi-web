@@ -12,7 +12,7 @@ const Hero = () => {
                     <a href='#' className='px-4 py-2 bg-black opacity-100 text-white rounded-2xl text-[1.5vw]'>Ponete en contacto</a>
                 </div>
             </div>
-            <div className="lg:w-[55%] h-auto absolute right-20 z-[-1]">
+            <div className="lg:w-auto h-full py-[6.5vw] absolute right-20 z-[-1]">
                 <img className='w-auto h-full rounded-r-2xl' src="/hero-sec-img.jpg" alt="" />
             </div>
         </div>

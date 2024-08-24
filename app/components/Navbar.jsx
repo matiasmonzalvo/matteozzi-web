@@ -13,7 +13,7 @@ const Navbar = () => {
     }, []);
 
   return (
-    <nav className='fixed w-full z-40 border-b-[1px] border-black'>
+    <nav className='fixed w-full z-40 border-b-[1px] border-gray-300'>
     <div className="max-w-full bg-white">
       <div className="flex mx-auto justify-between w-full px-20">
         <div className="flex w-full items-center justify-between my-[1.5vw]">
