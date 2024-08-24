@@ -81,20 +81,15 @@ export default function Contacto() {
     return (
         <section
             id="contacto"
-            className="flex justify-center w-screen h-screen items-center mb-16 px-20"
+            className="flex justify-center w-screen h-screen items-center mb-16 p-20"
+            data-scroll-section
         >
-            <div className="bg-blue-600 rounded-3xl p-8 w-full flex flex-col justify-between lg:flex-row">
+            <div className="bg-black rounded-3xl py-20 px-8 w-full flex flex-col justify-between lg:flex-row">
                 <div className="w-full lg:w-4/8 lg:pr-8 flex flex-col text-white mb-8 lg:mb-0">
-                    <span className="text-md font-semibold mb-2">
-                        A TU DISPOSICIÓN
-                    </span>
-                    <h1 className="text-5xl font-bold mb-4">
-                        ¿Todavía con dudas?
-                    </h1>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 text-gray-100">
+                    <h2 className="lg:text-[4vw] md:text-4xl font-semibold mb-4 text-white leading-[1]">
                         Escribínos y recibí toda la información
-                    </h1>
-                    <p className="text-lg md:text-xl">
+                    </h2>
+                    <p className="text-lg md:text-xl text-white">
                         Nuestros horarios de atención son 24/7 por lo que
                         responderemos a tus inquietudes de inmediato.
                     </p>

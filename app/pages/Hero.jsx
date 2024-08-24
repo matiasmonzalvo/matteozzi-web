@@ -2,14 +2,18 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='w-screen h-screen flex items-center justify-center' data-scroll-section>
+    <section className='w-screen h-screen flex items-center justify-center overflow-hidden' data-scroll-section>
+        
         <div className='w-full h-full flex flex-row items-center justify-start px-20'>
-            <div className="flex flex-col justify-center lg:w-2/3 h-full">
-                <h1 className='text-5xl font-[700] m-0 p-0 leading-[1]'>Alternativas para comercio exterior</h1>
-                <p className='mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic tenetur at optio obcaecati! Dolor cum harum ut magni consectetur consequuntur. Amet, dignissimos veniam? Dolorum, eaque pariatur. Amet, laboriosam vitae.</p>
+            <div className="flex flex-col justify-center lg:w-7/12 h-full pr-20">
+                <h1 className='text-5xl font-[700] m-0 p-0 leading-[0.9]'>Comercio Internacional</h1>
+                <p className='mt-4 text-[2vw] leading-[1.1]'>¿Estás interesado en importar-exportar o deseas tener una mejor alternativa en su operativa de comercio exterior?</p>
                 <div className='mt-6'>
-                    <a className='px-4 py-2 bg-blue-500 text-white rounded-3xl'>Contacto</a>
+                    <a href='#' className='px-4 py-2 bg-black opacity-100 text-white rounded-2xl text-[1.5vw]'>Ponete en contacto</a>
                 </div>
+            </div>
+            <div className="lg:w-5/12">
+                <img className='w-full h-auto rounded-2xl' src="/hero.jpg" alt="" />
             </div>
         </div>
     </section>

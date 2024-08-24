@@ -30,4 +30,10 @@ body {
 
 .c-scrollbar{
   z-index: 50;
+  pointer-events: none;
+}
+
+.c-scrollbar_thumb{
+  background-color: #000;
+  opacity: 1;
 }

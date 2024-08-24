@@ -14,7 +14,7 @@ export default function Input({
     const labelStyles =
         'block text-white dark:text-white text-sm font-medium mb-2 text-left';
     const inputStyles =
-        'bg-gray-100 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 shadow-sm focus:ring-blue-500 focus:border-blue-500 rounded-3xl';
+        'bg-white dark:bg-white border border-gray-300 dark:border-gray-600 shadow-sm focus:ring-blue-500 focus:border-blue-500 rounded-3xl';
 
     return (
         <div className="mb-4">

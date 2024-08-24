@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="flex mx-auto justify-between w-full px-20">
         <div className="flex w-full items-center justify-between my-[1.5vw]">
           <div>
-            <a href="/" className="flex gap-1 font-bold text-gray-700 items-center ">
+            <a href="/" className="flex gap-1 font-bold text-black items-center ">
               <span className='leading-6 text-xl'>Matteozzi<br/>Lavilla</span>
             </a>
           </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
           </div>
           {isClient && (
             <div>
-              <a className='bg-blue-500 px-4 py-2 rounded-3xl'>Contacto</a>
+              <a className='bg-black text-white px-4 py-2 rounded-3xl'>Contacto</a>
             </div>
           )}
         </div>
