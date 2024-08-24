@@ -81,7 +81,7 @@ export default function Contacto() {
     return (
         <section
             id="contacto"
-            className="flex justify-center w-screen h-screen items-center mb-16 p-20"
+            className="flex justify-center w-screen h-screen items-center p-20"
             data-scroll-section
         >
             <div className="bg-black rounded-3xl py-20 px-8 w-full flex flex-col justify-between lg:flex-row">
