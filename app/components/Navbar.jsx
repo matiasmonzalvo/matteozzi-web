@@ -29,7 +29,7 @@ const Navbar = () => {
           </div>
           {isClient && (
             <div>
-              <a className='bg-black text-white px-4 py-2 rounded-3xl'>Contacto</a>
+              <a className='bg-black text-white px-4 py-2 rounded-md'>Contacto</a>
             </div>
           )}
         </div>
