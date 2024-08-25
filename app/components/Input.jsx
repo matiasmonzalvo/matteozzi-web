@@ -12,7 +12,7 @@ export default function Input({
     const commonStyles =
         'w-full px-4 py-3 border rounded-lg text-gray-700 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800';
     const labelStyles =
-        'block text-white dark:text-white text-sm font-medium mb-2 text-left';
+        'block text-black text-sm font-medium mb-2 text-left';
     const inputStyles =
         'bg-white dark:bg-white border border-gray-300 dark:border-gray-600 shadow-sm focus:ring-blue-500 focus:border-blue-500 rounded-3xl';
 

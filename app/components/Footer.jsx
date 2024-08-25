@@ -3,25 +3,17 @@ import '../globals.css'
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800" data-scroll-section>
-        <div className="w-full mx-auto max-w-screen-xl px-10 pb-10 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Matteozzi Lavilla. All Rights Reserved.
-          </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
-                <a href="#" className="hover:underline me-4 md:me-6">About</a>
-            </li>
-            <li>
-                <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-            </li>
-            <li>
-                <a href="#" className="hover:underline">Contact</a>
-            </li>
-        </ul>
+    <footer className="bg-teal-200 rounded-lg shadow mt-4 mx-20" data-scroll-section>
+      <div className="flex flex-row justify-center items-center bg-teal-100 border-x-[1px] border-t-[1px] border-gray-500 rounded-t-2xl overflow-hidden pt-10 pb">
+        <div className="w-[40%] flex flex-col items-start justify-center">
+          <h2 className="text-[5vw] font-bold leading-[1]">Matteozzi<br/>Lavilla</h2>
+          <span className="text-[1vw] text-black opacity-80 mt-[2vw] sm:text-center">© 2024 Matteozzi Lavilla. All Rights Reserved.</span>
         </div>
+        <div className="w-[50%] flex flex-row items-center justify-center">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Matteozzi Lavilla. All Rights Reserved.</span>
+        </div>
+      </div>
+
     </footer>
     
   )

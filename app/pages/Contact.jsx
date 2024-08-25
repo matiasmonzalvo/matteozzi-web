@@ -84,14 +84,14 @@ export default function Contacto() {
             className="flex justify-center w-screen h-screen items-center p-20"
             data-scroll-section
         >
-            <div className="bg-black rounded-3xl py-20 px-8 w-full h-[100%] flex flex-col justify-between lg:flex-row">
+            <div className="bg-teal-100 border-[1px] border-gray-500 rounded-3xl py-20 px-8 w-full h-[100%] flex flex-col justify-center items-center lg:flex-row">
                 <div className="w-full lg:w-4/8 lg:pr-8 flex flex-col text-white mb-8 lg:mb-0">
-                    <h2 className="lg:text-[4vw] md:text-4xl font-semibold mb-4 text-white leading-[1]">
+                    <h2 className="lg:text-[4vw] md:text-4xl font-semibold mb-4 text-black leading-[1]">
                         Escribínos y recibí toda la información
                     </h2>
-                    <p className="text-lg md:text-xl text-white">
+                    <p className="text-lg md:text-xl text-black">
                         Nuestros horarios de atención son 24/7 por lo que
-                        responderemos a tus inquietudes de inmediato.
+                        responderemos a tus inquietudes de inmediato. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem laborum nemo minima porro nisi doloremque ratione sapiente. Possimus facilis autem maiores recusandae? Sunt ut pariatur quam atque. Voluptate, ipsam?
                     </p>
                 </div>
 
@@ -141,7 +141,7 @@ export default function Contacto() {
                                 <motion.button
                                     onClick={handleSubmit}
                                     {...buttonMotionConfig}
-                                    className="w-full px-8 py-3 bg-blue-600 rounded-md text-white shadow-lg hover:bg-blue-400 transition duration-200 ease-in-out"
+                                    className="w-full px-8 py-3 bg-black rounded-md text-white hover:bg-teal-700 transition duration-200 ease-in-out"
                                 >
                                     Enviar
                                 </motion.button>
