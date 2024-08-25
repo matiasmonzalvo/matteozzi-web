@@ -8,7 +8,7 @@ const About = () => {
                 <img src="/hero2.jpg" className='flex-1 h-auto rounded-2xl border-[1px] border-gray-500' alt=""  data-scroll data-scroll-speed="6"/>
                 <img src="/hero3.jpg" className='flex-1 h-auto rounded-2xl border-[1px] border-gray-500' alt=""  data-scroll data-scroll-speed="4"/>
                 <div className="absolute top-[30%] left-[25%] w-[40%] h-full bg-teal-100 rounded-2xl border-[1px] border-gray-500" data-scroll data-scroll-speed="2">
-                  <h1 className='text-black text-[3.5vw] font-[700] mt-6 ml-10'>Nosotros</h1>
+                  <h1 className='text-black text-[5vw] font-[800] mt-6 ml-10'>Nosotros</h1>
                   <p className='text-black text-[1.65vw] font-[400] ml-10 w-[90%] leading-[1.2]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptates officia odio beatae inventore neque voluptatibus blanditiis quaerat. Magnam minima veniam pariatur assumenda dolores commodi quos minus. Inventore, ipsam animi.</p>
                 </div>
             </div>
