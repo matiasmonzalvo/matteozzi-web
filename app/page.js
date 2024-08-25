@@ -22,6 +22,14 @@ export default function Home() {
     <LocomotiveScrollProvider
       options={{
         smooth: true,
+        smartphone: {
+          breakpoint: 0,
+          smooth: true,
+        },
+        tablet: {
+          breakpoint: 0,
+          smooth: true,
+        },
       }}
       watch={[]}
       containerRef={containerRef}
